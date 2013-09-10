@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C31A43717DEF31D00E02420 /* digraphs.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C31A43617DEF31D00E02420 /* digraphs.c */; };
+		9C31A43917DEF31D00E02420 /* Punctuators.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C31A43817DEF31D00E02420 /* Punctuators.1 */; };
+		9C31A44017DEFCB000E02420 /* trigraphs.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C31A43F17DEFCB000E02420 /* trigraphs.c */; settings = {COMPILER_FLAGS = "-trigraphs"; }; };
+		9C31A44217DEFD7900E02420 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C31A44117DEFD7800E02420 /* main.c */; };
+		9C31A44417DF00DC00E02420 /* comments.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C31A44317DF00DC00E02420 /* comments.c */; settings = {COMPILER_FLAGS = "-trigraphs"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C31A43117DEF31D00E02420 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9C31A43917DEF31D00E02420 /* Punctuators.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C31A43317DEF31D00E02420 /* Punctuators */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Punctuators; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C31A43617DEF31D00E02420 /* digraphs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = digraphs.c; sourceTree = "<group>"; };
+		9C31A43817DEF31D00E02420 /* Punctuators.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Punctuators.1; sourceTree = "<group>"; };
+		9C31A43F17DEFCB000E02420 /* trigraphs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trigraphs.c; sourceTree = "<group>"; };
+		9C31A44117DEFD7800E02420 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9C31A44317DF00DC00E02420 /* comments.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = comments.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C31A43017DEF31D00E02420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C31A42A17DEF31D00E02420 = {
+			isa = PBXGroup;
+			children = (
+				9C31A43517DEF31D00E02420 /* Punctuators */,
+				9C31A43417DEF31D00E02420 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C31A43417DEF31D00E02420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C31A43317DEF31D00E02420 /* Punctuators */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C31A43517DEF31D00E02420 /* Punctuators */ = {
+			isa = PBXGroup;
+			children = (
+				9C31A44117DEFD7800E02420 /* main.c */,
+				9C31A43617DEF31D00E02420 /* digraphs.c */,
+				9C31A43F17DEFCB000E02420 /* trigraphs.c */,
+				9C31A44317DF00DC00E02420 /* comments.c */,
+				9C31A43817DEF31D00E02420 /* Punctuators.1 */,
+			);
+			path = Punctuators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C31A43217DEF31D00E02420 /* Punctuators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C31A43C17DEF31D00E02420 /* Build configuration list for PBXNativeTarget "Punctuators" */;
+			buildPhases = (
+				9C31A42F17DEF31D00E02420 /* Sources */,
+				9C31A43017DEF31D00E02420 /* Frameworks */,
+				9C31A43117DEF31D00E02420 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Punctuators;
+			productName = Punctuators;
+			productReference = 9C31A43317DEF31D00E02420 /* Punctuators */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C31A42B17DEF31D00E02420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexander Chenryy";
+			};
+			buildConfigurationList = 9C31A42E17DEF31D00E02420 /* Build configuration list for PBXProject "Punctuators" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C31A42A17DEF31D00E02420;
+			productRefGroup = 9C31A43417DEF31D00E02420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C31A43217DEF31D00E02420 /* Punctuators */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C31A42F17DEF31D00E02420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C31A43717DEF31D00E02420 /* digraphs.c in Sources */,
+				9C31A44017DEFCB000E02420 /* trigraphs.c in Sources */,
+				9C31A44217DEFD7900E02420 /* main.c in Sources */,
+				9C31A44417DF00DC00E02420 /* comments.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C31A43A17DEF31D00E02420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C31A43B17DEF31D00E02420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C31A43D17DEF31D00E02420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C31A43E17DEF31D00E02420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C31A42E17DEF31D00E02420 /* Build configuration list for PBXProject "Punctuators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C31A43A17DEF31D00E02420 /* Debug */,
+				9C31A43B17DEF31D00E02420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C31A43C17DEF31D00E02420 /* Build configuration list for PBXNativeTarget "Punctuators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C31A43D17DEF31D00E02420 /* Debug */,
+				9C31A43E17DEF31D00E02420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C31A42B17DEF31D00E02420 /* Project object */;
+}
