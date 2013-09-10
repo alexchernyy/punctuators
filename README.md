@@ -1,4 +1,4 @@
-punctuators
+Punctuators
 ===========
 
-Punctuators (trigraphs, digraphs).
+Punctuators (trigraphs, digraphs) example.
